@@ -6,7 +6,9 @@
     "build": "email build",
     "dev": "email dev",
     "export": "email export",
-    "format": "pnpm biome format --write ./emails"
+    "format": "pnpm biome format --write ./emails",
+    "lint": "pnpm biome check ./emails",
+    "lint:fix": "pnpm biome check --apply ./emails"
   },
   "dependencies": {
     "@react-email/components": "0.0.16",
